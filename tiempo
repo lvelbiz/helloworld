@@ -1,0 +1,22 @@
+package tiempo;
+
+import java.util.Scanner;
+
+public class tiempo {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		double velocidad;
+		double distancia;
+		double tiempo;
+
+		System.out.println("Indica la velocidad");
+		velocidad = scanner.nextLine();
+		System.out.println("Indica la distancia");
+		distancia = scanner.nextLine();
+		
+		tiempo = velocidad/distancia;
+
+		System.out.println("El tiempo necesario es: " + tiempo);
+	}
+}
